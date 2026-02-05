@@ -1,16 +1,8 @@
-# 💘 Valentine Interactive Site
+# 💘 Valentine Interactive Site (Mobile-First)
 
-A playful interactive Valentine webpage where:
+A playful, mobile-optimized interactive Valentine webpage built with pure HTML, CSS, and JavaScript.
 
-- The **No button runs away**
-- The **Yes button gets bigger**
-- The page asks “Are you sure?” multiple times
-- The Yes button chases your cursor/finger (magnet effect)
-- Confetti explodes when Yes is clicked
-- Floating hearts animate in the background
-- A final message appears: “I knew you’d say yes ❤️”
-
-Built as a fun, shareable micro-site.
+Designed primarily for phones and touch interaction.
 
 ---
 
@@ -21,32 +13,39 @@ https://raw.githack.com/devanshulakhani/val/main/index.html
 
 ## ✨ Features
 
-### 🎯 Interaction Design
-- Runaway "No" button
-- Progressive emotional prompts
-- Growing "Yes" button
-- Cursor/finger magnet effect
+### 📱 Mobile-First Experience
+- Touch-optimized interactions
+- Finger tracking (no mouse required)
+- Tap-safe UI behavior
+- Mobile vibration feedback
 
-### 💖 Visual Effects
-- Confetti animation
-- Floating hearts
+### 💖 Interaction Flow
+- “No” button runs away
+- Asks “Are you sure?” three times
+- No button shrinks and disappears
+- Yes button grows progressively
+- Yes button magnet-follows finger
+
+### 🎉 Visual Effects
+- Confetti explosion on Yes
+- Floating hearts background
 - Soft gradient UI
-
-### 📱 Mobile Friendly
-- Touch tracking
-- Vibration feedback on Yes
-- Responsive layout
+- Typewriter final message
 
 ---
 
-## 🚀 How to Use
+## 🧠 How It Works
 
-1. Open the repo
-2. Edit `index.html`
-3. Commit changes
-4. Refresh the live link
+User tries to tap "No":
+→ button moves away  
+→ emotional prompts appear  
+→ Yes becomes dominant  
 
-Your hosted version updates automatically.
+User taps "Yes":
+→ confetti animation  
+→ vibration feedback  
+→ message appears:  
+"I knew you’d say yes ❤️"
 
 ---
 
@@ -56,20 +55,22 @@ Your hosted version updates automatically.
 - CSS
 - Vanilla JavaScript
 - Canvas animations
-
-No frameworks. No dependencies.
-
----
-
-## 🎬 Use Cases
-
-- Valentine proposal
-- Cute relationship site
-- Viral share page
-- Personal interactive message
+- No frameworks
+- No dependencies
 
 ---
 
-## ❤️ Author
+## 🚀 Updating the Page
 
-Made with love.
+1. Open the repository
+2. Edit `index.html`
+3. Commit changes
+4. Refresh the live link
+
+The hosted page updates automatically.
+
+---
+
+## ❤️ Purpose
+
+Built as a cute, shareable Valentine experience and interactive moment.
